@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Hacker News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="/public/css/news.css" />
+  </head>
+  <body>
+  <div id="btnList">
+    <button class="addRoom" id="addRoom">添加房间</button>
+    <button class="editRoom" id="editRoom">编辑</button>
+  </div>
+
+    <div  class="iptBox container">
+      <dd class="imgItem add" id="addBtn"><input type="file" accept="image/*" multiple="multiple" class="upload-input"></dd>
+      <div style="clear: both"></div>
+    </div>
+    <div class="submit">提交</div>
+    <div id="floatCover">
+      <div id="floatCon">
+        <p id="floatMsg">确定要删除吗？</p>
+        <a href="javascript:void(0)" id="yes">确定</a>
+        <a href="javascript:void(0)" id="cancel">取消</a>
+      </div>
+    </div>
+    <script src="/public/js/jquery.js"></script>
+    <script src="/public/js/imageCompresser.js"></script>
+    <script src="/public/js/index.js"></script>
+  </body>
+</html>

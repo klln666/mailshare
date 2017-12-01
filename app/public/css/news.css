@@ -1,0 +1,25 @@
+*{margin:0;padding:0}
+#btnList{width:100%;border:1px solid #eee;background-color: #fff;border-radius: 4px;height:44px;text-align: center;line-height: 44px}
+#btnList button{display:inline-block;width:49%;height:100%;background: none;border:none;cursor: pointer;font-size: 14px;color:#6b6b6b}
+.iptBox{width:100%;min-height:200px;margin-top:20px}
+.imgItem{ border:1px solid #eee;width:144px;height:144px;float:left;margin-right:25px;margin-top:10px;border-radius: 5px}
+.imgItem dd{
+    width:100%;
+    height:70%;
+    text-align:center;
+    background-color: #ccc;
+    padding-top:10px;
+    position: relative;
+}
+dd .del{display:none;width:16px;height:16px;background: url(/public/images/close_wt.png) no-repeat; background-size:16px;position: absolute;top:0;right:0;z-index:8}
+.imgItem dt{width:100%;height:20%;}
+.roomName{width:100%;height:100%;border:none;text-align: center;color:#6b6b6b;}
+.imgItem img{width:80%;height:80%}
+dd.add{display:none;border:none;background:url(/public/images/picAdd.png) center  no-repeat; background-size:80px auto;margin-top:10px}
+dd  .upload-input{width: 100%;height: 100%;opacity: 0;}
+#floatCover{width:100%;height:100%;position:absolute;left:0;top:0;background: rgba(0,0,0,0.6);display: none;z-index:10}
+#floatCon{width:200px;height:20%;position:absolute;top:30%;left:50%;margin-left:-100px;border: 1px solid #eee;border-radius: 15px;background: #fff;}
+#floatCon p{width:100%;height:60%;text-align: center;margin-top:10%;border-bottom: 1px solid #eee}
+#floatCon a{display: inline-block;width:48%;text-align: center;text-decoration: none;color: lightcoral;padding-bottom:9%}
+#yes{border-right: 1px solid #eee}
+.submit{width:100%;height:40px;text-align: center;position:fixed;bottom:0;background: #df3031;line-height: 40px;color:#fff !important}
